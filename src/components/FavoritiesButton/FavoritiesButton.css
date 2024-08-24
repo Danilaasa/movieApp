@@ -1,0 +1,43 @@
+.favoritites {
+    border: none;
+    background: none;
+    max-width: 36px;
+    max-height: 32px;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button-off {
+    opacity: 0.5;
+}
+.favoritites__icon {
+    color:  var(--bg-color);
+    stroke: currentColor;
+}
+
+
+.movie-page__preview-info-button {
+    padding: 13px 37px;
+    border-radius: 10px;
+    background-color: var(--color-button-primary);
+    color: var(--color-text-in-buton);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 26px;
+    font-size: 16px;
+}
+.favoritites__rect {
+    color: var(--bg-color);
+    stroke: currentColor;
+}
+.favoritites__svg:hover .favoritites__icon {
+    stroke: var(--constant-black);
+}
+
+.favoritites__svg:hover {
+    transition: all 1s linear;
+    color: var(--bg-color);
+    fill: currentColor;
+}
+

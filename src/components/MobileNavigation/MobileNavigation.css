@@ -1,0 +1,17 @@
+.menu-links {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    padding-right: 10px;
+}
+.mail {
+    gap: 24px;
+    padding-left: 7px;
+}
+
+.menu-links-favorities__svg {
+    color: var(--constant-black);
+    stroke: black;
+}

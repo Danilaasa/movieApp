@@ -1,0 +1,54 @@
+@import-normalize;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root {
+    --constant-black: #121212;
+    --constant-gray: #B8B8B8;
+    --constant-font-black: #000000;
+    --bg-color: #FAFAFA;
+    --constant-font-white: #FFFFFF;
+    --grid-gap: 25px;
+    --color-input: #DEDEDE;
+    --color-font-input: #252525;
+    --color-button-primary: #0D0D0D;
+    --color-text-in-buton: #F2F2F2;
+}
+
+
+[theme="dark"] {
+        --constant-black: #d7cccc;
+        --bg-color: #121212;
+        --constant-font-black: #FFFFFF;
+        --constant-gray: #0D0D0D;
+        --constant-font-white: #121212;
+        --color-input: #252525;
+        --color-font-input: #FAFAFA;
+        --color-button-primary: #F2F2F2;
+        --color-text-in-buton: #0D0D0D;
+}
+
+body {  
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--bg-color);
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 1170px;
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+    gap: var(--grid-gap);
+}
+
+@media all and (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

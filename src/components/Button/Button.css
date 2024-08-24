@@ -1,0 +1,12 @@
+.movie-page__button-disabled {
+    padding: 13px 37px;
+    border-radius: 10px;
+    background-color: var(--color-button-primary);
+    color: var(--color-text-in-buton);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 26px;
+    font-size: 16px;
+    opacity: 0.5;
+}
