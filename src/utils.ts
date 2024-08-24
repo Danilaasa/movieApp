@@ -1,11 +1,11 @@
 import { MoviesCards } from "./store/types";
-import { words, value } from "./types";
+import { words } from "./types";
 
 
 export const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 export const SCREEN_MD = 576;
 
-export const beautifyDuration = (value: value, words: words) => {
+export const beautifyDuration = (value: number, words: words) => {
         value = Math.abs(value) % 100; 
         const num = value % 10;
         if(value > 10 && value < 20) return words[2]; 
