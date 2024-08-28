@@ -37,7 +37,6 @@ body {
 .container {
     margin-inline: auto;
     max-width: 1170px;
-    overflow-x: hidden;
 }
 
 .grid {

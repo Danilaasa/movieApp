@@ -62,8 +62,10 @@ export const Header: FC<IHeader>= ({ children }) => {
                             <text className="textInCircle" dy=".3em" x="50%" y="50%"  alignmentBaseline="alphabetic" textAnchor="middle" fontSize="12px" >{state.favorities.favorities.length}</text>
                         </g>
                         </svg>
+
                     </div>
                     <ThemeSwitcher />
+
                     
                 </div> : <MobileNavigation />}
             </div>

@@ -9,7 +9,6 @@ import { ModalWindow } from './components/ModalWindow/ModalWindow'
 import { PersistGate } from 'redux-persist/integration/react'
 import { persistor } from './store/store'
 
-
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <BrowserRouter>
